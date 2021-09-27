@@ -1,0 +1,10 @@
+[package]
+name = "oxide-bar"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+async-trait = "0.1.51"
+chrono = "0.4.19"
+rand = "0.8.4"
+tokio = { version = "1.11.0", features = [ "full" ] }
